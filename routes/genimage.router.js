@@ -18,7 +18,7 @@ router.post('/genimage', async(req, res) =>{
             size: '512x512',
         });
 
-        if(imgurl) traffic.imageSuccess ++;
+        if(imgData) traffic.imageSuccess ++;
 
         const imgurl = imgData.data.data[0].url;
         return res.status(200).json(imgurl);
