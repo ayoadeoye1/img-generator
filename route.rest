@@ -1,0 +1,6 @@
+POST http://localhost:8000/api/gentext
+Content-Type: application/json
+
+{
+    "text": "deeply explain mohorovicic in geology"
+}
